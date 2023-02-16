@@ -1,0 +1,316 @@
+body {
+    background-color: #ced4d8;
+}
+
+h1 {
+    color: #ac6ac7;
+}
+
+h2 {
+    color: rgb(255, 165, 0);
+}
+
+li {
+    color: blue;
+}
+
+p {
+    background-color: gold;
+}
+
+input[type="text"], input[type="email"] {
+    border: 5px dotted pink;
+}
+
+input[type="email"] {
+    background-color: #808080;
+}
+
+.first {
+    background-color: #fff;
+}
+
+#important {
+    border: 3px dashed #0000ff;
+}
+
+div p {
+    font-size: 30px;
+}
+
+div:nth-of-type(3) p {
+    background-color: hotpink;
+}
+
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: 7px solid rgb(255, 255, 255)
+}
+
+div:nth-of-type(3) em {
+    color: seashell;
+    font-size: 25px;
+} 
+
+input[type=checkbox][checked] {
+    margin-left: 40px;
+}
+
+label {
+    text-transform: lowercase;
+}
+
+#important::first-letter {
+    color: lime;
+    font-size: 90px;
+}
+
+h1:hover {
+    color: navy;
+}
+
+a:visited {
+    color: silver;
+}
+
+
+/* Begin nonsense stuff */
+/* Sorry, it got really messy down here and I'm really tired... */
+
+@font-face {
+    
+    font-family: whoaSauce;
+    src: url(./Typeface/WhoaSauce.ttf);}
+
+@font-face {
+    font-family: newRodin;
+    src: url(./Typeface/NewRodin.otf);
+}
+
+@font-face {
+    font-family: pirate;
+    src: url(./Typeface/BlackSamsGold.ttf);
+}
+@font-face {
+    font-family: cheese;
+    src: url(./Typeface/CheeseAndMouse.ttf);
+}
+@font-face {
+    font-family: chuck;
+    src: url(./Typeface/ChuckNorris.otf);
+}
+
+@keyframes blink {
+    50% {opacity: 0;}
+
+}
+
+@keyframes vibrate {
+    0% {transform: translate(1px, 1px) rotate(1deg);}
+    10% {transform: translate(-4px, -3px) rotate(-1deg);}
+    20% {transform: translate(-1px, 2px) rotate(0deg);}
+    30% {transform: translate(2px, -4px) rotate(2deg);}
+    40% {transform: translate(1px, 1px) rotate(0deg);}
+    50% {transform: translate(-1px, -1px) rotate(1deg);}
+    60% {transform: translate(-2px, 2px) rotate(-2deg);}
+    70% {transform: translate(3px, -2px) rotate(1deg);}
+    80% {transform: translate(4px, 4px) rotate(-1deg);}
+    90% {transform: translate(-3px, -3) rotate(0deg);}
+    100% {transform: translate(-2px, 2px) rotate(-2deg);}
+}
+
+@keyframes vibrateMoar {
+    0% {transform: translate(12px, 12px) rotate(2deg);}
+    10% {transform: translate(-18px, -16px) rotate(-2deg);}
+    20% {transform: translate(-12px, 14px) rotate(1deg);}
+    30% {transform: translate(14px, -18px) rotate(4deg);}
+    40% {transform: translate(12px, 12px) rotate(1deg);}
+    50% {transform: translate(-12px, -12px) rotate(2deg);}
+    60% {transform: translate(-14px, 14px) rotate(-4deg);}
+    70% {transform: translate(16px, -12px) rotate(2deg);}
+    80% {transform: translate(18px, 18px) rotate(-2deg);}
+    90% {transform: translate(-16px, -16) rotate(-1deg);}
+    100% {transform: translate(-14px, 14px) rotate(-4deg);}
+}
+
+@keyframes VIBRATEMOST {
+    0% {transform: translate(112px, 12px) rotate(12deg);}
+    10% {transform: translate(-18px, -116px) rotate(-21deg);}
+    20% {transform: translate(-112px, 14px) rotate(11deg);}
+    30% {transform: translate(14px, -181px) rotate(41deg);}
+    40% {transform: translate(112px, 12px) rotate(11deg);}
+    50% {transform: translate(-12px, -121px) rotate(12deg);}
+    60% {transform: translate(-114px, 14px) rotate(-41deg);}
+    70% {transform: translate(16px, -121px) rotate(21deg);}
+    80% {transform: translate(181px, 18px) rotate(-12deg);}
+    90% {transform: translate(-16px, -116) rotate(-11deg);}
+    100% {transform: translate(-114px, 14px) rotate(-41deg);}
+}
+
+@keyframes rotate{
+    0% {transform: rotate(0deg);}
+    10% {transform: rotate(36deg);}
+    20% {transform: rotate(72deg);}
+    30% {transform: rotate(108deg);}
+    40% {transform: rotate(144deg);}
+    50% {transform: rotate(180deg);}
+    60% {transform: rotate(216deg);}
+    70% {transform: rotate(252deg);}
+    80% {transform: rotate(288deg);}
+    90% {transform: rotate(324deg);}
+    100% {transform: rotate(360deg);}
+}
+ @keyframes aoogah{
+    0% {
+        color: #ced4d8;
+        transform: scale(0);
+    }
+    25% {
+        color: cornflowerblue;
+        transform: scale(2);
+    }
+    50% {
+        color: #ffa500;
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+ }
+
+@keyframes wiggle{
+    0% {transform: rotate(22deg);}
+    15% {transform: rotate(45deg);}
+    30% {transform: rotate(22deg);}
+    45% {transform: rotate(0deg);}
+    60% {transform: rotate(-22deg);}
+    75% {transform: rotate(-45deg);}
+    90% {transform: rotate(-22deg);}
+    100% {transform: rotate(0deg);}
+}
+
+@keyframes rainbow{
+    0% {color:#ff0000}
+    9% {color:#ff8800}
+    18% {color:#ffff00}
+    27% {color:#88ff00}
+    36% {color:#00ff00}
+    45% {color:#00ff88}
+    54% {color:#00ffff}
+    63% {color:#0088ff}
+    72% {color:#0000ff}
+    81% {color:#8800ff}
+    90% {color:#ff00ff}
+    100% {color:#ff0088}
+}
+
+
+
+* {
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    font-size: 3vh;
+}
+
+*:active {
+    font-family: newRodin;
+}
+
+body {
+    padding: 10vw;
+}
+
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 10vh;
+}
+
+h2 {
+    margin-top:10px;
+    margin-bottom:20px;
+    font-size: 5vh;
+}
+
+*:active p.first {
+    animation: wiggle 1s infinite;
+
+}
+
+*:active #important {
+    animation: blink .6s infinite;
+}
+
+*:active h2:nth-of-type(1) {
+    
+    animation: aoogah 2s ease infinite;
+}
+
+*:active div:nth-of-type(3) h2 {
+    animation: aoogah 5s ease infinite;
+}
+
+*:active div:nth-of-type(4) h2 {
+    animation: rotate .5s ease infinite;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+*:active div:nth-of-type(1) p:nth-of-type(3){
+    font-family: cheese;    
+    font-size: 3vh;
+}
+
+*:active div:nth-of-type(3) p:nth-of-type(1) {
+    font-family: chuck;
+}
+
+*:active div:nth-of-type(4) p:nth-of-type(1){
+    font-family: pirate;
+}
+
+.first {
+    margin-bottom: 25vh;
+}
+
+#important {
+    position:absolute;
+    bottom: 20vh;
+    margin-left: 17%;
+}
+
+*:active li:nth-of-type(1) input[type=checkbox]  {
+    animation: vibrate .2s infinite;
+}
+
+*:active li:nth-of-type(2) input[type=checkbox]  {
+    animation: vibrateMoar .2s infinite;
+}
+
+*:active li:nth-of-type(3) input[type=checkbox] {
+    animation: VIBRATEMOST .5s infinite;
+}
+
+*:active input[type=text] {
+    background-image: url(./Images/obiwan.png);
+    width: 252px;
+    height: 158px;
+    
+}
+
+a:hover {
+    color: purple;
+    animation: rainbow 2s infinite;
+}
+
+div {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+p:nth-of-type(3):not(div p){
+    margin-bottom: 100vh;
+}
